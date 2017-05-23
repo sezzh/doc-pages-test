@@ -4,12 +4,14 @@
   "description": "metalsmith example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "handlebars": "^4.0.8",
+    "jest": "^20.0.1",
+    "jsdoc-to-markdown": "^3.0.0",
     "markdown-include": "^0.4.3",
     "metalsmith": "^2.3.0",
     "metalsmith-assets": "^0.1.0",
@@ -17,6 +19,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-navigation": "^0.2.9",
     "metalsmith-packagejson": "^1.1.0",
-    "metalsmith-permalinks": "^0.5.0"
+    "metalsmith-permalinks": "^0.5.0",
+    "s-walker": "^0.3.0"
   }
 }
